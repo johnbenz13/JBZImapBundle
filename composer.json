@@ -1,0 +1,22 @@
+{
+    "name": "jbz/imap-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony integration for jgg/imap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Bensaid",
+            "email": "john@bensaidj.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=5.3.2",
+	"symfony/framework-bundle": "~2.1",
+	"jgg/imap": "composer-dev"
+    },
+    "autoload": {
+	"psr-0": { "JBZ\\ImapBundle": ""}
+    },
+    "target-dir": "JBZ/ImapBundle"
+}
