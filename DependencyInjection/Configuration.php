@@ -25,6 +25,7 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('host')->isRequired()->end()
                 ->scalarNode('username')->isRequired()->end()
                 ->scalarNode('password')->isRequired()->end()
+                ->scalarNode('port')->defaultValue(993)->end()
                 ->scalarNode('ssl')->defaultValue(true)->end()
                 ->scalarNode('folder')->defaultValue('INBOX')->end()
             ->end();

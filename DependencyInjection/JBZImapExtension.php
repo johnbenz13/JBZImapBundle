@@ -28,6 +28,7 @@ class JBZImapExtension extends Extension
         $container->setParameter('jbz_imap.host', $config['host']);
         $container->setParameter('jbz_imap.username', $config['username']);
         $container->setParameter('jbz_imap.password', $config['password']);
+        $container->setParameter('jbz_imap.port', $config['port']);
         $container->setParameter('jbz_imap.ssl', $config['ssl']);
         $container->setParameter('jbz_imap.folder', $config['folder']);
     }
